@@ -5,3 +5,55 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* default */
+*{
+  margin: 0;
+}
+
+.container{
+  width: 90%;
+  margin: 5rem auto;
+  border-radius: 1rem;
+  border: 1px solid blue;
+}
+
+h3{
+  font-size: 2.2rem;
+  margin: 3rem auto;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.span{
+  color: rgb(255,84,0);
+}
+
+p, li{
+  font-size: 1.1rem;
+}
+
+/* navbar */
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  width: 280px;
+}
+
+.logo img{
+  width: 48px;
+  height: 56px;
+  margin-right: 0.5rem;
+}
+
+.nav-options{
+  display: flex;
+  gap: 4rem;
+}
+
+
