@@ -46,6 +46,7 @@ p, li{
   color: white;
   border: 1px solid rgb(255,84,0);
   border-radius: 8px;
+  font-size: 1.2rem;
 }
 
 /* navbar */
@@ -125,3 +126,30 @@ input, select{
   border: none;
   font-size: 1rem;
 }
+
+/* popular section */
+.popular-section{
+  display: flex;
+  gap: 3rem;
+}
+
+.text-content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: space-between;
+  padding-right: 4rem;
+}
+
+.text-content p, .text-content li{
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+}
+
+.text-content h3{
+  text-align: left;
+}
+
